@@ -1,0 +1,10 @@
+@mixin font($size, $weight){
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+$f-size-title: clamp(1.2rem, 4vw, 2.48rem);
+$f-size-text: clamp(.65rem, 2vw, .95rem);
+$f-size-input: .7rem;
+$f-size-copyright: .6rem;
